@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@Controller
+@RestController("/order")
 public class OrderController {
 
     @Autowired
@@ -17,12 +17,12 @@ public class OrderController {
 
     //Please implement GET Apis with path `/order/{orderId}` and `/order` here
 
-    @GetMapping("/order/{orderId}")
+    @GetMapping("/{orderId}")
     public Order getOrderById( @PathVariable long orderId){
         return orderService.getOrderById(orderId);
     }
 
-    @GetMapping("/order")
+    @GetMapping()
     public List<Order> getOrders(){
         return orderService.getAllOrders();
     }
