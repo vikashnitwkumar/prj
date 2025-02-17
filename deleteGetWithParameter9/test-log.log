@@ -1,0 +1,160 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:Evaluations >-----------------------
+[INFO] Building Evaluations 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Evaluations ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Evaluations ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 9 source files with javac [debug parameters release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Evaluations ---
+[INFO] skip non existing resourceDirectory /config/workspace/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Evaluations ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 4 source files with javac [debug parameters release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Evaluations ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.example.evaluations.controllers.CategoryControllerMvcTest
+22:03:29.093 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.evaluations.controllers.CategoryControllerMvcTest]: CategoryControllerMvcTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:03:29.259 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.evaluations.EvaluationsApplication for test class org.example.evaluations.controllers.CategoryControllerMvcTest
+22:03:29.357 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2025-02-17T22:03:29.798Z  INFO 32010 --- [Evaluations] [           main] o.e.e.c.CategoryControllerMvcTest        : Starting CategoryControllerMvcTest using Java 17.0.12 with PID 32010 (started by root in /config/workspace)
+2025-02-17T22:03:29.799Z  INFO 32010 --- [Evaluations] [           main] o.e.e.c.CategoryControllerMvcTest        : No active profile set, falling back to 1 default profile: "default"
+2025-02-17T22:03:32.452Z  INFO 32010 --- [Evaluations] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-02-17T22:03:32.452Z  INFO 32010 --- [Evaluations] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-02-17T22:03:32.464Z  INFO 32010 --- [Evaluations] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-02-17T22:03:32.511Z  INFO 32010 --- [Evaluations] [           main] o.e.e.c.CategoryControllerMvcTest        : Started CategoryControllerMvcTest in 3.171 seconds (process running for 4.471)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.030 s -- in org.example.evaluations.controllers.CategoryControllerMvcTest
+[INFO] Running org.example.evaluations.controllers.ProductControllerMvcTest
+2025-02-17T22:03:32.845Z  INFO 32010 --- [Evaluations] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.example.evaluations.controllers.ProductControllerMvcTest]: ProductControllerMvcTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17T22:03:32.885Z  INFO 32010 --- [Evaluations] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.example.evaluations.EvaluationsApplication for test class org.example.evaluations.controllers.ProductControllerMvcTest
+2025-02-17T22:03:32.906Z  INFO 32010 --- [Evaluations] [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2025-02-17T22:03:32.975Z  INFO 32010 --- [Evaluations] [           main] o.e.e.c.ProductControllerMvcTest         : Starting ProductControllerMvcTest using Java 17.0.12 with PID 32010 (started by root in /config/workspace)
+2025-02-17T22:03:32.975Z  INFO 32010 --- [Evaluations] [           main] o.e.e.c.ProductControllerMvcTest         : No active profile set, falling back to 1 default profile: "default"
+2025-02-17T22:03:33.471Z  INFO 32010 --- [Evaluations] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-02-17T22:03:33.472Z  INFO 32010 --- [Evaluations] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-02-17T22:03:33.472Z  INFO 32010 --- [Evaluations] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-02-17T22:03:33.514Z  INFO 32010 --- [Evaluations] [           main] o.e.e.c.ProductControllerMvcTest         : Started ProductControllerMvcTest in 0.608 seconds (process running for 5.474)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.765 s -- in org.example.evaluations.controllers.ProductControllerMvcTest
+[INFO] Running org.example.evaluations.services.FakeStoreCategoryServiceTest
+2025-02-17T22:03:33.643Z  INFO 32010 --- [Evaluations] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.example.evaluations.services.FakeStoreCategoryServiceTest]: FakeStoreCategoryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17T22:03:33.664Z  INFO 32010 --- [Evaluations] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.example.evaluations.EvaluationsApplication for test class org.example.evaluations.services.FakeStoreCategoryServiceTest
+2025-02-17T22:03:33.676Z  INFO 32010 --- [Evaluations] [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2025-02-17T22:03:33.709Z  INFO 32010 --- [Evaluations] [           main] o.e.e.s.FakeStoreCategoryServiceTest     : Starting FakeStoreCategoryServiceTest using Java 17.0.12 with PID 32010 (started by root in /config/workspace)
+2025-02-17T22:03:33.710Z  INFO 32010 --- [Evaluations] [           main] o.e.e.s.FakeStoreCategoryServiceTest     : No active profile set, falling back to 1 default profile: "default"
+2025-02-17T22:03:35.000Z  INFO 32010 --- [Evaluations] [           main] o.e.e.s.FakeStoreCategoryServiceTest     : Started FakeStoreCategoryServiceTest in 1.325 seconds (process running for 6.96)
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.449 s <<< FAILURE! -- in org.example.evaluations.services.FakeStoreCategoryServiceTest
+[ERROR] org.example.evaluations.services.FakeStoreCategoryServiceTest.testGetProducts -- Time elapsed: 0.069 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.http.ResponseEntity.getBody()" because the return value of "org.springframework.web.client.RestTemplate.getForEntity(String, java.lang.Class, Object[])" is null
+	at org.example.evaluations.evaluation.services.FakeStoreCategoryService.getProducts(FakeStoreCategoryService.java:21)
+	at org.example.evaluations.services.FakeStoreCategoryServiceTest.testGetProducts(FakeStoreCategoryServiceTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] Running org.example.evaluations.services.FakeStoreProductServiceTest
+2025-02-17T22:03:35.120Z  INFO 32010 --- [Evaluations] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.example.evaluations.services.FakeStoreProductServiceTest]: FakeStoreProductServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-02-17T22:03:35.135Z  INFO 32010 --- [Evaluations] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.example.evaluations.EvaluationsApplication for test class org.example.evaluations.services.FakeStoreProductServiceTest
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! -- in org.example.evaluations.services.FakeStoreProductServiceTest
+[ERROR] org.example.evaluations.services.FakeStoreProductServiceTest.testDeleteProduct -- Time elapsed: 0.034 s <<< FAILURE!
+Argument(s) are different! Wanted:
+org.springframework.web.client.RestTemplate#0 bean.delete(
+    "https://fakestoreapi.com/products/{productId}",
+    1L
+);
+-> at org.springframework.web.client.RestTemplate.delete(RestTemplate.java:625)
+Actual invocations have different arguments at position [1]:
+org.springframework.web.client.RestTemplate#0 bean.delete(
+    "https://fakestoreapi.com/products/{productId}",
+    {"productId" = 1L}
+);
+-> at org.example.evaluations.evaluation.services.FakeStoreProductService.deleteProduct(FakeStoreProductService.java:20)
+
+	at org.springframework.web.client.RestTemplate.delete(RestTemplate.java:625)
+	at org.example.evaluations.services.FakeStoreProductServiceTest.testDeleteProduct(FakeStoreProductServiceTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   FakeStoreProductServiceTest.testDeleteProduct:40 
+Argument(s) are different! Wanted:
+org.springframework.web.client.RestTemplate#0 bean.delete(
+    "https://fakestoreapi.com/products/{productId}",
+    1L
+);
+-> at org.springframework.web.client.RestTemplate.delete(RestTemplate.java:625)
+Actual invocations have different arguments at position [1]:
+org.springframework.web.client.RestTemplate#0 bean.delete(
+    "https://fakestoreapi.com/products/{productId}",
+    {"productId" = 1L}
+);
+-> at org.example.evaluations.evaluation.services.FakeStoreProductService.deleteProduct(FakeStoreProductService.java:20)
+
+[ERROR] Errors: 
+[ERROR]   FakeStoreCategoryServiceTest.testGetProducts:55 » NullPointer Cannot invoke "org.springframework.http.ResponseEntity.getBody()" because the return value of "org.springframework.web.client.RestTemplate.getForEntity(String, java.lang.Class, Object[])" is null
+[INFO] 
+[ERROR] Tests run: 4, Failures: 1, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.213 s
+[INFO] Finished at: 2025-02-17T22:03:35Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project Evaluations: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /config/workspace/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
